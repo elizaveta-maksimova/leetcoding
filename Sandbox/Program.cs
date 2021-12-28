@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            LongestCommonPrefix.Execute();
+            SearchInsertPosition.Execute();
             Console.ReadKey();
         }
     }
