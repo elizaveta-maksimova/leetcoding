@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            SearchInsertPosition.Execute();
+            RotateArray.Execute();
             Console.ReadKey();
         }
     }
