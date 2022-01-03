@@ -8,23 +8,10 @@ namespace Sandbox
         public static void Execute()
         {
             int[] nums = new[] {1, 2, 0 ,5, 0 ,0, 6};
-            
-            for (int lastNonZeroFoundAt = 0, cur = 0; cur < nums.Length; cur++) {
-                if (nums[cur] != 0) 
-                {
-                    swap(ref nums[lastNonZeroFoundAt++], ref nums[cur]);
-                }
-            }
-            
-            
+    
             Console.WriteLine(string.Join(",", Rotate(nums, 5)));
         }
 
-        private static void swap(ref int i, ref int j)
-        {
-            (i, j) = (j, i);
-        }
-        
         public static int[] Rotate(int[] nums, int k)
         {
             while (k > nums.Length)

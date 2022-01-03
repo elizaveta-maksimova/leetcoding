@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            RotateArray.Execute();
+            MiddleOfLinkedList.Execute();
             Console.ReadKey();
         }
     }
