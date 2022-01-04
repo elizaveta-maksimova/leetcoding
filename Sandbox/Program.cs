@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            MiddleOfLinkedList.Execute();
+            MaxAreaOfIsland.Execute();
             Console.ReadKey();
         }
     }
