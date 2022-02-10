@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            MaximumSubArray.Execute();
+            RemoveDuplicatesFromArray.Execute();
             Console.ReadKey();
         }
     }
