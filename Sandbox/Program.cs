@@ -8,7 +8,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            MaxAreaOfIsland.Execute();
+            MaximumSubArray.Execute();
             Console.ReadKey();
         }
     }
